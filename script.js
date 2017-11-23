@@ -80,16 +80,13 @@ function selectFichier(fichier) {
             //On passe à travers chaque ligne de data
             tableauxReseau.links = data.map((item) => {
                 return {
-                    //Pour chaque ligne de data, links.source = le mot1 de data
                     source: item.mot1,
-                    //Pareil pour links.target
                     target: item.mot2,
                     value: item.poids
                 };
             });
             tableauxReseau.nodes = motsUniques.map((item) => {
                 return {
-                    //Pour chaque ligne de motsUniques, nodes.id = la ligne sur laquelle on est
                     id: item
                 };
             });
@@ -98,6 +95,7 @@ function selectFichier(fichier) {
 
         function reseau(seuil) {
             var dataNetwork = creationTableaux(seuil);
+            console.log(dataNetwork);
 
             //Avant toute chose, on enlève tout ce qui pourrait rester des simulations précédentes
             canevas2.selectAll(".links").remove();
