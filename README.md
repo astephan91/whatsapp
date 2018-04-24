@@ -4,4 +4,4 @@ lien est fort. Ces liens sont ensuite visualisés à l'aide de la librairie d3.j
 
 ![Resultat avant Jeanne](https://raw.github.com/astephan91/whatsapp/master/Resultat%20Avant%20Jeanne.png?raw=true)
 
-![Resultat après Jeanne](https://raw.github.com/astephan91/whatsapp/master/Resultat%20Après%20Jeanne.png?raw=true)
+![Resultat après Jeanne](https://raw.github.com/astephan91/whatsapp/master/Resultat%20Apres%20Jeanne.png?raw=true)
